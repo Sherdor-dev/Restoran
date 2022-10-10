@@ -1,0 +1,115 @@
+.hero{
+    position: relative;
+    top: 114px;
+    left: 40px;
+
+    &>h1{
+        font-family: 'Tinos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 57px;
+        color: #D67E35;
+    }
+    &>h1::after{
+        content: "Наш ресторан";
+        display: block;
+        font-family: 'Tinos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 92px;
+        color: #D67E35;
+        position: absolute;
+        left: -25px;
+    }
+
+    &>p{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFFFF;
+        position: absolute;
+        top: 148px;
+        left: 85px;
+    }
+
+    &>p::before{
+        position: relative;
+        content: "";
+        display: inline-block;
+        width: 51px;
+        height: 0px;
+        border: 1px solid #FFFFFF; 
+        bottom: 5px;
+        right: 5px;
+    }
+    &>p::after{
+        position: relative;
+        content: "";
+        display: inline-block;
+        width: 51px;
+        height: 0px;
+        border: 1px solid #FFFFFF; 
+        bottom: 5px;
+        left: 5px;
+    }
+
+    &>button{
+        font-family: $font-OS;
+        position: absolute;
+        top: 190px;
+        left: 150px;
+        font-weight: 700;
+        font-size: 14px;
+        border: none;
+        color: $sec-clr;
+        width: 137px;
+        height: 47px;
+        background-color:#FF7400;   
+    }
+    &__cards{
+        position: relative;
+        top: 293px;
+        display: flex;
+        justify-content: space-between;
+        right: 50px;
+    }
+    &__cards--card{
+        text-align: center;
+        width: 349px;
+        height: 328px;
+        background: #FFFFFF;
+        box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+        padding-top: 35px;
+
+        &>h2{
+            font-family: 'Tinos';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 30px;
+            color: #2C2C2C;
+            margin-bottom: 20px;
+
+            &>b{
+                color: #D67E35;
+                font-weight: 400;
+            }
+        }
+
+        &>p{
+            font-family: 'Tinos';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 30px;
+            text-align: center;
+
+            color: #656363;
+        }
+    }
+
+}

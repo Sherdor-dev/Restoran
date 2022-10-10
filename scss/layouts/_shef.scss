@@ -1,0 +1,22 @@
+.shef{
+    margin-bottom: 100px;
+     &> h2{
+        text-align: center;
+        margin-bottom: 107px;
+        font-family: 'Tinos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 62px;
+        color: #000000;
+
+        &>span{
+            color: #D67E34;
+        }
+     }
+    &__card{
+        gap: 32px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

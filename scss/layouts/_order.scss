@@ -1,0 +1,48 @@
+section:nth-child(2){
+    height: 357px;
+    width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 132px;
+    background-image: url(../../images/bg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.order{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 357px;
+
+    &__item>h2{
+        font-family: 'Tinos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 60px;
+
+        color: #D67E34;
+    }
+
+    &__item>p{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        /* identical to box height */
+        color: #FFFFFF;
+    }
+
+    &>button{
+        font-family: $font-OS;
+        font-weight: 700;
+        font-size: 14px;
+        color: $sec-clr;
+        width: 157px;
+        height: 47px;
+        background-color:#FF7400;
+    }
+}

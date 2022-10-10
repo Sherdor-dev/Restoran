@@ -1,0 +1,90 @@
+// Navbar styles
+.nav{
+    height: 160px;
+    display: flex;
+    align-items: center;
+    &__ul{
+
+        margin-left: 268px;
+        margin-right: 34.7px;
+        display: flex;
+        gap: 23px;
+
+        &--li>a{
+            font-family: $font-OS;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+
+            color: $sec-clr;
+        }
+    }
+
+    &__item{
+        display: flex;
+        position: relative;
+
+        &>button{
+            font-family: $font-OS;
+            position: absolute;
+            top: 7px;
+            left: 250px;
+            font-weight: 700;
+            font-size: 14px;
+            color: $sec-clr;
+            width: 157px;
+            height: 47px;
+            background-color:#FF7400;
+        }
+
+        &--contact{
+            margin-left: 41.94px;
+            margin-right: 45px;
+            position: relative;
+        }
+
+        &--contact::before{
+            content: "";
+            display: block;
+            width: 51px;
+            height: 0px;
+            border: 1px solid #FFFFFF;
+            transform: rotate(90deg);
+            
+            position: absolute;
+            right:155px;
+            top: 30px;
+        }
+
+        &--contact>.number{
+            font-family: $font-OS;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 25px;
+            color: $sec-clr
+        }
+        &--contact>.text{
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+
+            color: #FFFFFF;
+            width: 154px;
+            height: 38px;
+        }
+    }
+}
+
+
+.number::before{
+    content: " ";
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background-image: url(../../images/phone.svg);
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}

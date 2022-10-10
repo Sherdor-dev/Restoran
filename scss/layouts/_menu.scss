@@ -1,0 +1,104 @@
+section:nth-child(4){
+    height: 1034px;
+    width: 1440px;
+    background-image: url(../../images/bar-1869656_1920\ 2.jpg);
+    margin: 0 auto;
+    margin-top: 350px;
+    padding-top: 98px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+
+    .menu {
+        & h2{
+        text-align: center;
+        font-family: 'Tinos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 62px;
+        color: #FFFFFF;
+        text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+        margin-bottom: 138px;
+        }
+
+        &__item{
+            width: 1110px;
+            display: flex;
+            justify-content: space-between;
+            height: 510px;
+            align-items: center;
+            
+
+
+            &--card{
+                width: 350px;
+                height: 100%;
+                background-color: #FFFFFF;
+                text-align: center;
+                position: relative;
+                & img{
+                    border-radius: 50%;
+                    margin-top: 60px;
+                    margin-bottom: 20px;
+                }
+                & span{
+                    display: block;
+                    font-family: 'Cookie';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 30px;
+                    line-height: 33px;
+                    color: #FFFFFF;
+                    background-color: #D67E34;
+                    width: 100px;
+                    height: 100px;
+                    border: 7px solid #ffffff;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    left: 190px;
+                    bottom: 220px;
+                }
+
+                & h3{
+                    font-family: 'Tinos';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 26px;
+                    line-height: 30px;
+                    color: #000000;
+                }
+                & p{
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 22px;
+                    text-align: center;
+                    color: #000000;
+                    margin: 18px 0px;
+                }
+
+                & button{
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 22px;                    
+                    text-align: center;                    
+                    color: #FFFFFF;
+                    width: 220px;
+                    height: 50px;
+                    background-color: #D67E34;
+                    border: none;                   
+                }
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,35 @@
+.galary{
+    margin-bottom: 100px;
+
+    & h2{
+        text-align: center;
+        margin-bottom: 60px;
+        font-family: 'Tinos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 62px;
+        color: #000000;
+
+    }
+    .galary__grid{
+        display: grid;
+        grid-template-columns:  auto auto auto auto;
+        grid-template-rows: repeat(2,270px);
+        gap: 30px;
+        &--card{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+        #first{
+            grid-column: 1 /3;
+        }
+        #last{
+            grid-column: 3 / 5;
+            height: 100%;
+        }
+     
+      }
+}
